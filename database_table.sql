@@ -8,11 +8,11 @@ personal_number int not null unique,
 telephone varchar,
 primary key (personal_number)
 );
-    bn 
+    
 create table company_data(
 id_personal_number int, 
 department varchar not null,
 job_title varchar not null,
 job_description varchar,
-foreign key (id_personal_number) REFERENCES personaldata(personal_number)
+foreign key (id_personal_number) REFERENCES personaldata(personal_number) on CASCADE on UPDATE
 );
