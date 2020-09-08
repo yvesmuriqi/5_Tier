@@ -14,5 +14,5 @@ id_personal_number int,
 department varchar not null,
 job_title varchar not null,
 job_description varchar,
-foreign key (id_personal_number) REFERENCES personaldata(personal_number) on CASCADE on UPDATE
+foreign key (id_personal_number) REFERENCES personaldata(personal_number) ON DELETE CASCADE ON UPDATE CASCADE
 );
