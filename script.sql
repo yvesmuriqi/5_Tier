@@ -1,6 +1,6 @@
 create TABLE personaldata(
 first_name varchar(255) not null,
-last+_name varchar(255) not null,
+last_name varchar(255) not null,
 birth_date not null,
 e-mail varchar(255),
 ahv varchar(255) not null,
