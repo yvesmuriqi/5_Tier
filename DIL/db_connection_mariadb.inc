@@ -1,6 +1,6 @@
-<?php  
-   $user = "root";
-   $pw = "1234";
+<?php
+$user = "root";
+$pw = "1234";
 
 $dsn ="odbc:MySQLLogin";
 
