@@ -6,7 +6,7 @@ e-mail varchar(255),
 ahv varchar(255) not null,
 id_employee int not null unique,
 telephone varchar(9),
-primary key (employee_id)
+primary key (id_employee)
 );
     
 create table company_data(
