@@ -1,0 +1,4 @@
+CREATE PROCEDURE show_workers_department @Department varchar(55)
+AS
+select * from company_data, personaldata where department = @department
+GO;
