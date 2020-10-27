@@ -49,7 +49,7 @@ if ($_SESSION['DBConnection']['Connected']) {
     }
 // Daten fuer Praesentation Layer vorbereiten
 //    $html_Output_InnerTable .= "</tbody></table>";
-    $html_Output = "<html><head><title>Hobbies</title><link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'></head>";
+    $html_Output = "<html><head><title>Employee</title><link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'></head>";
     $html_Output .= "<nav class=\"navbar navbar-dark bg-primary\"><a class=\"navbar-brand\" href=\"../PL/index.html\">Employee</a></nav>";
     $html_Output .= "<body>";
     $html_Output .= $html_Output_InnerTable;

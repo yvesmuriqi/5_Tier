@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS employee(
 CREATE TABLE company(
     company_id int NOT NULL AUTO_INCREMENT,
     company VARCHAR(50) NOT NULL,
-    department VARCHAR(50) NOT NULL UNIQUE,
+    department VARCHAR(50) NOT NULL,
     job_title VARCHAR(50) NOT NULL,
     job_description VARCHAR(50),
     id_employee int,

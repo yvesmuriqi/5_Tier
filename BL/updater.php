@@ -44,7 +44,7 @@ foreach ($dblink->query($sql) as $row) {
                 <button type=\"submit\" class=\"btn btn-primary\">Submit</button>
             </form>";
 
-    $html_Output = "<html><head><title>Hobbies</title><link rel='stylesheet' href='../PL/style.css'><link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'></head><div class=\"col-sm-3\"></div></div>";
+    $html_Output = "<html><head><title>Employee</title><link rel='stylesheet' href='../PL/style.css'><link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'></head><div class=\"col-sm-3\"></div></div>";
     $html_Output .= "<nav class=\"navbar navbar-dark bg-primary\"><a class=\"navbar-brand\" href=\"../PL/index.html\">Employee</a></nav>";
     $html_Output .= "<body>";
     $html_Output .= $html_Output_Form;

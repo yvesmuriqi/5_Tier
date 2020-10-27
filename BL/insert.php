@@ -18,7 +18,7 @@ $job_description = $_POST["job_description"];
 include_once $_SERVER['DOCUMENT_ROOT'] = '../DIL/db_connection_mysql.inc';
 try {
     $dblink->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $sql = "INSERT INTO employee (employee_id, first_name, last_name, email, ahv, phone) VALUES ('$employee_id', '$first_name','$last_name','$email','$ahv','$phone');";
+    $sql = "INSERT INTO employee (employee_id, first_name, last_name, birth_date, email, ahv, phone) VALUES ('$employee_id', '$first_name','$last_name', '$birth_date', '$email','$ahv','$phone');";
     $sql .= "INSERT INTO company (company, department, job_title, job_description, id_employee) VALUES ('$company', '$department','$job_title','$job_description', '$employee_id');";
     // use exec() because no results are returned
     $dblink->exec($sql);
